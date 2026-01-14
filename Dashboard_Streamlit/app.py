@@ -134,7 +134,7 @@ while True:
 
                 st.session_state.motor_speed = st.slider(
                     "Vitesse du moteur",
-                    0, 100,
+                    50, 100,
                     st.session_state.motor_speed,
                     key="motor_speed_FINAL"
                 )
